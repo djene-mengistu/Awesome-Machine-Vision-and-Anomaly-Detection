@@ -18,7 +18,7 @@ jobs:
     if: >-
       github.event.label.name == 'approved-paper' &&
       github.event.sender.login == github.repository_owner &&
-      startsWith(github.event.issue.title, '[Paper]')
+      startsWith(github.event.issue.title, '[Paper')
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
