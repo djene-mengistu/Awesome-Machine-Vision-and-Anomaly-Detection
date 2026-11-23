@@ -1,0 +1,34 @@
+# Classification, Detection & Segmentation
+
+[← Back to collection](../README.md)
+
+Defect classification, detection, and segmentation are important tasks in various industries, particularly in manufacturing and quality control processes. These tasks involve identifying and categorizing defects in products or materials. Deep learning-based defect classification involves identifying types of defects in a product or simply identifying wether a product is defective or not. Detection involves localization and classification of defects, while defect segmetnation involves identification and localization of defects at a pixel-level. Recent state-of-the-art methods involving these taks are presented in this repository.
+
+|Year|Title/Source|Journal/Conference|Code|
+|---|:---|:--|---|
+|2026|[UniSpector: Towards Universal Open-set Defect Recognition via Spectral-Contrastive Visual Prompting](https://scholar.google.com/scholar?q=UniSpector%3A%20Towards%20Universal%20Open-set%20Defect%20Recognition%20via%20Spectral-Contrastive%20Visual%20Prompting) |CVPR| <br> Code not verified|
+|2026|[Towards Open-Vocabulary Industrial Defect Understanding with a Large-Scale Multimodal Dataset](https://scholar.google.com/scholar?q=Towards%20Open-Vocabulary%20Industrial%20Defect%20Understanding%20with%20a%20Large-Scale%20Multimodal%20Dataset) |CVPR| <br> Code not verified|
+|2025|[Anomaly Detection of Integrated Circuits Package Substrates Using the Large Vision Model SAIC: Dataset Construction, Methodology, and Application](https://scholar.google.com/scholar?q=Anomaly%20Detection%20of%20Integrated%20Circuits%20Package%20Substrates%20Using%20the%20Large%20Vision%20Model%20SAIC%3A%20Dataset%20Construction%2C%20Methodology%2C%20and%20Application) |ICCV| <br> Code not verified|
+|2025|[Training-Free Industrial Defect Generation with Diffusion Models](https://scholar.google.com/scholar?q=Training-Free%20Industrial%20Defect%20Generation%20with%20Diffusion%20Models) |ICCV| <br> Code not verified|
+|2025|[Wavelet and Prototype Augmented Query-based Transformer for Pixel-level Surface Defect Detection](https://scholar.google.com/scholar?q=Wavelet%20and%20Prototype%20Augmented%20Query-based%20Transformer%20for%20Pixel-level%20Surface%20Defect%20Detection) |CVPR| <br> Code not verified|
+|2025|[RoBiS: Robust Binary Segmentation for High-Resolution Industrial Images](https://scholar.google.com/scholar?q=RoBiS%3A%20Robust%20Binary%20Segmentation%20for%20High-Resolution%20Industrial%20Images) |CVPR Workshop| <br> Code not verified|
+|2025|[Bounding Box-Guided Diffusion for Synthesizing Industrial Images and Segmentation Map](https://scholar.google.com/scholar?q=Bounding%20Box-Guided%20Diffusion%20for%20Synthesizing%20Industrial%20Images%20and%20Segmentation%20Map) |CVPR Workshop| <br> Code not verified|
+|2025|[Enhanced Fabric Defect Detection with Feature Contrast Interference Suppression](https://scholar.google.com/scholar?q=Enhanced%20Fabric%20Defect%20Detection%20with%20Feature%20Contrast%20Interference%20Suppression) |IEEE TIM| <br> Code not verified|
+|2025|[Open-Set Fabric Defect Detection With Defect Generation and Transfer](https://scholar.google.com/scholar?q=Open-Set%20Fabric%20Defect%20Detection%20With%20Defect%20Generation%20and%20Transfer) |IEEE TIM| <br> Code not verified|
+|2025|[Fully-Synthetic Training for Visual Quality Inspection in Automotive Production](https://scholar.google.com/scholar?q=Fully-Synthetic%20Training%20for%20Visual%20Quality%20Inspection%20in%20Automotive%20Production) |Computers in Industry| <br> Code not verified|
+|2023|[Deep learning-based automated steel surface defect segmentation: a comparative experimental study](https://link.springer.com/article/10.1007/s11042-023-15307-y) |Multimedia Tools and Applications| <br>[Pytorch](https://github.com/djene-mengistu/dseg_models)|
+|2023|[Deep CNN-based visual defect detection: Survey of current literature](https://www.sciencedirect.com/science/article/abs/pii/S0166361523000611) |Computers in Industry| <br>Not available|
+|2023|[Process parameter effects estimation and surface quality prediction for selective laser melting empowered by Bayes optimized soft attention mechanism-enhanced transfer learning](https://www.sciencedirect.com/science/article/abs/pii/S0166361523002166) |Computers in Industry| <br>Not available|
+|2023|[WaferSegClassNet - A light-weight network for classification and segmentation of semiconductor wafer defects](https://www.sciencedirect.com/science/article/abs/pii/S0166361522001178) |Computers in Industry| <br>Not available|
+|2023|[Automatic Defect Classification Using Semi-Supervised Learning With Defect Localization](https://ieeexplore.ieee.org/document/10129970) |IEEE Transactions on Semiconductor Manufacturing| <br>Not available|
+|2023|[A novel micro-defect classification system based on attention enhancement](https://link.springer.com/article/10.1007/s10845-022-02064-2) |Journal of Intelligent Manufacturing| <br>Not available|
+|2023|[Spatial Attention Enhanced Wafer Defect Classification Algorithm for Tiny Defects](https://ieeexplore.ieee.org/document/10367417) |IEEE ICAIT| <br>Not available|
+|2022|[Deep Adversarial Data Augmentation for Fabric Defect Classification With Scarce Defect Data](https://ieeexplore.ieee.org/document/9805666) |IEEE Transactions on Instrumentation and Measurement| <br>Not available|
+|2022|[Fabric defect classification using prototypical network of few-shot learning algorithm](https://www.sciencedirect.com/science/article/abs/pii/S0166361522000239) |Computers in Industry| <br>Not available|
+|2022|[Automated steel surface defect detection and classification using a new deep learning-based approach](https://link.springer.com/article/10.1007/s00521-022-08112-5) |Journal of Intelligent Manufacturing| <br>Not available|
+|2022|[Deep learning and machine learning neural network approaches for multi class leather texture defect classification and segmentation](https://link.springer.com/article/10.1186/s42825-022-00080-9) |Journal of Intelligent Manufacturing| <br>Not available|
+|2022|[A systemic comparison between using augmented data and synthetic data as means of enhancing wafermap defect classification](https://www.sciencedirect.com/science/article/abs/pii/S0166361522002056) |Computers in Industry| <br>Not available|
+|2022|[Advances in machine learning and deep learning applications towards wafer map defect recognition and classification: a review](https://link.springer.com/article/10.1007/s10845-022-01994-1) |Journal of Intelligent Manufacturing| <br>Not available|
+|2021|[Improvement of Multi-Lines Bridge Defect Classification by Hierarchical Architecture in Artificial Intelligence Automatic Defect Classification]( https://ieeexplore.ieee.org/document/9419865) |IEEE Transactions on Semiconductor Manufacturing | <br>Not available|
+
+

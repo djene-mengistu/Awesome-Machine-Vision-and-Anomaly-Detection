@@ -1,0 +1,62 @@
+name: "📄 Submit a Research Paper"
+description: Suggest a paper for the machine vision and anomaly detection collection
+title: "[Paper] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Please provide a canonical paper link and check that the paper is not already listed. Submissions are reviewed before inclusion.
+  - type: input
+    id: paper_title
+    attributes:
+      label: Paper title
+      placeholder: Full title as published
+    validations:
+      required: true
+  - type: input
+    id: paper_url
+    attributes:
+      label: Paper URL
+      description: Publisher, proceedings, DOI, or arXiv URL preferred
+      placeholder: https://arxiv.org/abs/...
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Publication year
+      placeholder: "2026"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Research category
+      options:
+        - Industrial anomaly detection
+        - Defect classification, detection and segmentation
+        - Semi-supervised and weakly-supervised learning
+        - Few-shot and zero-shot learning
+        - Vision-language and foundation models
+        - 3D and multimodal inspection
+        - Datasets and benchmarks
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Journal or conference (optional)
+      placeholder: CVPR, ICCV, IEEE TII, arXiv preprint, etc.
+  - type: input
+    id: code_url
+    attributes:
+      label: Official code repository (optional)
+      placeholder: https://github.com/...
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why is this paper relevant?
+      placeholder: A sentence or two about its contribution
+    validations:
+      required: true

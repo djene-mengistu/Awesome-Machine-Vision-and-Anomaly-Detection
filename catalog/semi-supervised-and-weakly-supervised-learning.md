@@ -1,0 +1,33 @@
+# Semi-supervised & Weakly-supervised Learning
+
+[← Back to collection](../README.md)
+
+Semi-supervised learning and weakly supervised learning are two approaches to machine learning that address scenarios where obtaining fully labeled training data is challenging or expensive. Hence, this repository presents state-of-the-art semi-supervised and weakly-supervised methods proposed for the task of intelligent industrial inspection.
+
+|Year|Title/Source|Journal/Conference|Code|
+|---|:---|:--|---|
+|2026|[Saliency-Guided Transformer Attention With Pixel-Level Contrastive Learning for Weakly Supervised Defect Localization](https://ieeexplore.ieee.org/abstract/document/11354152) |IEEE TII| <br>[Pytorch](https://github.com/djene-mengistu/STAC)|
+|2026|[Remove the Ambiguity: Few-shot Multimodal Anomaly Detection Using Crossmodal Feature Replacers](https://scholar.google.com/scholar?q=Remove%20the%20Ambiguity%3A%20Few-shot%20Multimodal%20Anomaly%20Detection%20Using%20Crossmodal%20Feature%20Replacers) |ICML| <br> Code not verified|
+|2026|[SubspaceAD: Training-Free Few-Shot Anomaly Detection via Subspace Modeling](https://scholar.google.com/scholar?q=SubspaceAD%3A%20Training-Free%20Few-Shot%20Anomaly%20Detection%20via%20Subspace%20Modeling) |CVPR| <br> Code not verified|
+|2026|[MAGIC: Few-Shot Mask-Guided Anomaly Inpainting with Prompt Perturbation, Spatially Adaptive Guidance, and Context Awareness](https://scholar.google.com/scholar?q=MAGIC%3A%20Few-Shot%20Mask-Guided%20Anomaly%20Inpainting%20with%20Prompt%20Perturbation%2C%20Spatially%20Adaptive%20Guidance%2C%20and%20Context%20Awareness) |CVPR Findings| <br> Code not verified|
+|2026|[Dual Distillation for Few-Shot Anomaly Detection](https://scholar.google.com/scholar?q=Dual%20Distillation%20for%20Few-Shot%20Anomaly%20Detection) |ICLR| <br> Code not verified|
+|2026|[Commonality in Few: Few-Shot Multimodal Anomaly Detection via Hypergraph-Enhanced Memory](https://scholar.google.com/scholar?q=Commonality%20in%20Few%3A%20Few-Shot%20Multimodal%20Anomaly%20Detection%20via%20Hypergraph-Enhanced%20Memory) |AAAI| <br> Code not verified|
+|2026|[CMDS-AD: Cross-Modal Dual-Stream Decoupling for Few-Shot Anomaly Detection](https://scholar.google.com/scholar?q=CMDS-AD%3A%20Cross-Modal%20Dual-Stream%20Decoupling%20for%20Few-Shot%20Anomaly%20Detection) |ECCV| <br> Code not verified|
+|2026|[Hyperbolic Defect Feature Synthesis for Few-Shot Defect Classification](https://scholar.google.com/scholar?q=Hyperbolic%20Defect%20Feature%20Synthesis%20for%20Few-Shot%20Defect%20Classification) |CVPR| <br> Code not verified|
+|2025|[SeaS: Few-shot Industrial Anomaly Image Generation with Separation and Sharing Fine-tuning](https://scholar.google.com/scholar?q=SeaS%3A%20Few-shot%20Industrial%20Anomaly%20Image%20Generation%20with%20Separation%20and%20Sharing%20Fine-tuning) |ICCV| <br> Code not verified|
+|2025|[When Textures Deceive: Weakly Supervised Industrial Anomaly Detection with Adapted-Loss (AL-CycleGAN)](https://scholar.google.com/scholar?q=When%20Textures%20Deceive%3A%20Weakly%20Supervised%20Industrial%20Anomaly%20Detection%20with%20Adapted-Loss%20%28AL-CycleGAN%29) |CVPR Workshop| <br> Code not verified|
+|2025|[MetaCAN: Improving Generalizability of Few-shot Anomaly Detection with Meta-learning](https://scholar.google.com/scholar?q=MetaCAN%3A%20Improving%20Generalizability%20of%20Few-shot%20Anomaly%20Detection%20with%20Meta-learning) |CIKM| <br> Code not verified|
+|2025|[Search is All You Need for Few-shot Anomaly Detection](https://scholar.google.com/scholar?q=Search%20is%20All%20You%20Need%20for%20Few-shot%20Anomaly%20Detection) |arXiv preprint| <br> Code not verified|
+|2025|[Towards Fine-Grained Vision-Language Alignment for Few-Shot Anomaly Detection](https://scholar.google.com/scholar?q=Towards%20Fine-Grained%20Vision-Language%20Alignment%20for%20Few-Shot%20Anomaly%20Detection) |arXiv preprint| <br> Code not verified|
+|2024|[SAIT: Harnessing Sparse Annotations and Intrinsic Tasks for Semi-supervised Industrial Defect Segmentation](https://ieeexplore.ieee.org/document/10528905) |IEEE TII| <br> Not available|
+|2024|[MetaUAS: Universal Anomaly Segmentation with One-Prompt Meta-Learning](https://scholar.google.com/scholar?q=MetaUAS%3A%20Universal%20Anomaly%20Segmentation%20with%20One-Prompt%20Meta-Learning) |NeurIPS| <br> Code not verified|
+|2024|[One-to-Normal: Anomaly Personalization for Few-shot Anomaly Detection](https://scholar.google.com/scholar?q=One-to-Normal%3A%20Anomaly%20Personalization%20for%20Few-shot%20Anomaly%20Detection) |NeurIPS| <br> Code not verified|
+|2024|[ResAD: A Simple Framework for Class Generalizable Anomaly Detection](https://scholar.google.com/scholar?q=ResAD%3A%20A%20Simple%20Framework%20for%20Class%20Generalizable%20Anomaly%20Detection) |NeurIPS| <br> Code not verified|
+|2024|[Few-Shot Anomaly-Driven Generation for Anomaly Classification and Segmentation](https://scholar.google.com/scholar?q=Few-Shot%20Anomaly-Driven%20Generation%20for%20Anomaly%20Classification%20and%20Segmentation) |ECCV| <br> Code not verified|
+|2024|[Dynamic Label Injection for Imbalanced Industrial Defect Segmentation](https://scholar.google.com/scholar?q=Dynamic%20Label%20Injection%20for%20Imbalanced%20Industrial%20Defect%20Segmentation) |ECCV Workshop| <br> Code not verified|
+|2023|[Uncertainty-aware and dynamically-mixed pseudo-labels for semi-supervised defect segmentation](https://www.sciencedirect.com/science/article/abs/pii/S0166361523001458) |Computers in Industry| <br>[Pytorch](https://github.com/djene-mengistu/UAPS)|
+|2022|[A knowledge distillation-based multi-scale relation-prototypical network for cross-domain few-shot defect classification](https://link.springer.com/article/10.1007/s10845-023-02080-w) |Journal of Intelligent Manufacturing| <br>Not available|
+|2022|[Semisupervised Defect Segmentation With Pairwise Similarity Map Consistency and Ensemble-Based Cross Pseudolabels](https://ieeexplore.ieee.org/document/9994033) |IEEE TII| <br>[Pytorch](https://github.com/djene-mengistu/simEps)|
+|2019|[Unsupervised weld defect classification in radiographic images using multivariate generalized Gaussian mixture model with exact computation of mean and shape parameters](https://www.sciencedirect.com/science/article/abs/pii/S0166361518305967) |Computers in Industry| <br>Not available|
+
+
