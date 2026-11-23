@@ -1,0 +1,71 @@
+name: Publish approved paper
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: paper-catalog-main
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    # Only the repository OWNER may approve, and only via this exact label.
+    if: >-
+      github.event.label.name == 'approved-paper' &&
+      github.event.sender.login == github.repository_owner &&
+      startsWith(github.event.issue.title, '[Paper]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Save submitted Issue data safely
+        env:
+          ISSUE_JSON_DATA: ${{ toJSON(github.event.issue) }}
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          Path('issue.json').write_text(os.environ['ISSUE_JSON_DATA'], encoding='utf-8')
+          PY
+
+      - name: Validate and insert paper
+        id: insert
+        run: python scripts/add_approved_paper.py
+
+      - name: Commit and publish
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/
+          git commit -m "Add approved paper from issue #${ISSUE_NUMBER}"
+          git push origin HEAD:main
+
+      - name: Confirm publication and close Issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body "✅ Approved paper published to the research catalog by GitHub Actions."
+          gh issue close "$ISSUE_NUMBER" --reason completed
+
+      - name: Report failed publication
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body "⚠️ Automatic publication failed (e.g., invalid metadata, duplicate, or repository permissions). Nothing was published for this submission. Please inspect the [workflow run]($RUN_URL) and correct/retry."
