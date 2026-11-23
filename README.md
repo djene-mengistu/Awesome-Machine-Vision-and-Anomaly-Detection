@@ -68,10 +68,10 @@ A short selection of papers with direct paper links and linked implementation re
 
 | Paper | Venue / year as listed | Code |
 |:--|:--|:--|
-| [AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection](https://openreview.net/pdf?id=buC4E91xZE) | 2024 | [Code](https://github.com/zqhang/AnomalyCLIP) |
+| [AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection](https://openreview.net/pdf?id=buC4E91xZE) | ICLR 2024 | [Code](https://github.com/zqhang/AnomalyCLIP) |
 | [AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP](https://openaccess.thecvf.com/content/CVPR2025/html/Ma_AA-CLIP_Enhancing_Zero-Shot_Anomaly_Detection_via_Anomaly-Aware_CLIP_CVPR_2025_paper.html) | CVPR 2025 | [Code](https://github.com/Mwxinnn/AA-CLIP) |
 | [ReMP-AD: Retrieval-enhanced Multi-modal Prompt Fusion](https://openaccess.thecvf.com/content/ICCV2025/html/Ma_ReMP-AD_Retrieval-enhanced_Multi-modal_Prompt_Fusion_for_Few-Shot_Industrial_Visual_Anomaly_ICCV_2025_paper.html) | ICCV 2025 | [Code](https://github.com/cshcma/ReMP-AD) |
-| [AnomalyGPT: Detecting Industrial Anomalies Using Large Vision-Language Models](https://arxiv.org/abs/2308.15366) | 2023 | [Code](https://github.com/CASIA-IVA-Lab/AnomalyGPT) |
+| [AnomalyGPT: Detecting Industrial Anomalies Using Large Vision-Language Models](https://arxiv.org/abs/2308.15366) | AAAI 2023 | [Code](https://github.com/CASIA-IVA-Lab/AnomalyGPT) |
 | [Uncertainty-aware and dynamically-mixed pseudo-labels for semi-supervised defect segmentation](https://www.sciencedirect.com/science/article/abs/pii/S0166361523001458) | Computers in Industry 2023 | [Code](https://github.com/djene-mengistu/UAPS) |
 
 *Featured links are drawn from the supplied list; this is not a performance-based ranking or an independent link audit.*
