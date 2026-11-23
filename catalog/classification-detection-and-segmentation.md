@@ -6,6 +6,7 @@ Defect classification, detection, and segmentation are important tasks in variou
 
 |Year|Title/Source|Journal/Conference|Code|
 |---|:---|:--|---|
+|2026|[TRIDENet: A noise-robust and boundary-aware detection framework for industrial surface defects](https://doi.org/10.1016/j.optlastec.2026.114843)|Optics & Laser Technology|[Code](https://github.com/JEFfersusu/TRIDENet)|
 |2026|[UniSpector: Towards Universal Open-set Defect Recognition via Spectral-Contrastive Visual Prompting](https://scholar.google.com/scholar?q=UniSpector%3A%20Towards%20Universal%20Open-set%20Defect%20Recognition%20via%20Spectral-Contrastive%20Visual%20Prompting) |CVPR| <br> Code not verified|
 |2026|[Towards Open-Vocabulary Industrial Defect Understanding with a Large-Scale Multimodal Dataset](https://scholar.google.com/scholar?q=Towards%20Open-Vocabulary%20Industrial%20Defect%20Understanding%20with%20a%20Large-Scale%20Multimodal%20Dataset) |CVPR| <br> Code not verified|
 |2025|[Anomaly Detection of Integrated Circuits Package Substrates Using the Large Vision Model SAIC: Dataset Construction, Methodology, and Application](https://scholar.google.com/scholar?q=Anomaly%20Detection%20of%20Integrated%20Circuits%20Package%20Substrates%20Using%20the%20Large%20Vision%20Model%20SAIC%3A%20Dataset%20Construction%2C%20Methodology%2C%20and%20Application) |ICCV| <br> Code not verified|
