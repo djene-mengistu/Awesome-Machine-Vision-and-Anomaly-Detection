@@ -6,6 +6,7 @@ Semi-supervised learning and weakly supervised learning are two approaches to ma
 
 |Year|Title/Source|Journal/Conference|Code|
 |---|:---|:--|---|
+|2026|[Cross-sample prototype matching and multiscale spatial correlation consistency for defect segmentation under limited annotations](https://www.sciencedirect.com/science/article/pii/S095741742602213X?via%3Dihub)|Expert Systems with Applications|[Code](https://github.com/djene-mengistu/ProMSC)|
 |2026|[Saliency-Guided Transformer Attention With Pixel-Level Contrastive Learning for Weakly Supervised Defect Localization](https://ieeexplore.ieee.org/abstract/document/11354152) |IEEE TII| <br>[Pytorch](https://github.com/djene-mengistu/STAC)|
 |2026|[Remove the Ambiguity: Few-shot Multimodal Anomaly Detection Using Crossmodal Feature Replacers](https://scholar.google.com/scholar?q=Remove%20the%20Ambiguity%3A%20Few-shot%20Multimodal%20Anomaly%20Detection%20Using%20Crossmodal%20Feature%20Replacers) |ICML| <br> Code not verified|
 |2026|[SubspaceAD: Training-Free Few-Shot Anomaly Detection via Subspace Modeling](https://scholar.google.com/scholar?q=SubspaceAD%3A%20Training-Free%20Few-Shot%20Anomaly%20Detection%20via%20Subspace%20Modeling) |CVPR| <br> Code not verified|
