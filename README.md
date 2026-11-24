@@ -26,12 +26,12 @@ An organized reading list covering **industrial anomaly detection**, **defect cl
 
 ## 📚 Explore the library
 
-<!-- PAPER_COUNT_AUTO --> **Total papers: 184** (automatically counted from the three catalogs).
+<!-- PAPER_COUNT_AUTO --> **Total papers: 185** (automatically counted from the three catalogs).
 
 | Research track | Papers listed | Explore |
 |:--|--:|:--|
 | **Industrial Anomaly Detection** | 133 | [Browse papers](catalog/industrial-anomaly-detection.md) |
-| **Classification, Detection & Segmentation** | 27 | [Browse papers](catalog/classification-detection-and-segmentation.md) |
+| **Classification, Detection & Segmentation** | 28 | [Browse papers](catalog/classification-detection-and-segmentation.md) |
 | **Semi-supervised & Weakly-supervised Learning** | 24 | [Browse papers](catalog/semi-supervised-and-weakly-supervised-learning.md) |
 
 ### 🧭 Research topics
