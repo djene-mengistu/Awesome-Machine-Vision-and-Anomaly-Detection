@@ -6,6 +6,7 @@ Semi-supervised learning and weakly supervised learning are two approaches to ma
 
 |Year|Title/Source|Journal/Conference|Code|
 |---|:---|:--|---|
+|2026|[A lightweight semi-supervised distillation framework for hard-to-detect surface defects in the steel industry (DFSSD)](https://www.sciencedirect.com/science/article/abs/pii/S0957417425031045)|Expert Systems with Applications|[Code](https://github.com/VVR0624/DFSSD)|
 |2026|[Multi-scale class activation map for weakly supervised defect segmentation](https://link.springer.com/article/10.1007/s10044-026-01660-9)|Pattern Analysis and Applications|Code not provided|
 |2026|[BEDUNet: Efficient weakly-supervised segmentation of hot-rolled steel defects with boundary-enhanced dynamic learning](https://www.sciencedirect.com/science/article/abs/pii/S0957417425045543)|Expert Systems with Applications|Code not provided|
 |2026|[Semi-Supervised Surface Defect Segmentation via Contrastive Learning](https://ieeexplore.ieee.org/document/11175586/)|IEEE TIM|Code not provided|
